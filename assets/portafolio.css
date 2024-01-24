@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    justify-content: space-around;
+    background-attachment: fixed;
+    background-image: url(../resource/compu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulos {
+
+    color: #fff;
+    font-size: 45px;
+}
+
+.contenido img {
+
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+}
+
+.navegacion {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar {
+    float: right;
+    padding-right: 50px;
+}
+
+.navbar .atajo {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navbar .atajo li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar .atajo li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .atajo li:hover {
+    background-color: #d37735;
+}
+
+.estudiante {
+
+    padding-top: 80px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.contenido{
+    background-color: #847772;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.5);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+.paginas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #847772;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.5);
+    border-radius: 1rem;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 30px;
+}
+
+.paginas h2,
+a {
+
+    color: black;
+    padding: 25px;
+}
+
+.paginas a {
+
+    font-size: 25px;
+}

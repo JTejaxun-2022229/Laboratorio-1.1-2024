@@ -1,7 +1,30 @@
+
 body {
 
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 100%);
+    background-attachment: fixed;
+    background-image: url(./../resource/Montañas1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: space-around;
+}
+
+header{
+
+    background: rgba(0, 0 , 0, 0.2);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar{
+
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
 }
 
 .titulos{
@@ -18,7 +41,7 @@ body {
 }
 
 .titulos, .subtitulo{
-    color:#fff;
+    color:#000;
 }
 
 .atajo{
@@ -39,12 +62,12 @@ body {
 
     text-decoration: none;
     text-decoration: underline;
-    color: #fff;
+    color: #000;
     font-size: 40px;
 }
 
 .yo{
-
+    margin-top: 80px;
     float: right;
 }
 
@@ -116,7 +139,6 @@ body {
 }
 
 .enlace {
-
-    color: azure;
+    color:black;
     font-size: 25px;
 }
