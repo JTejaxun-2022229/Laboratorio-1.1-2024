@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 100%);
+    justify-content: space-around;
+}
+
+.ejercicioImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagen {
+
+    width: 500px;
+    height: 340px;
+}
+
+.pie {
+    opacity: 1;
+    border: 1;
+}
+
+.trabajos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.enlace {
+
+    color: azure;
+    font-size: 25px;
+}
