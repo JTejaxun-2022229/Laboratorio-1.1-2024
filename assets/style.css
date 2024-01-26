@@ -104,18 +104,10 @@ header{
     padding: 25px;
 }
 
-.ejercicioImg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-}
-
 .imagen {
 
-    width: 500px;
-    height: 340px;
+    width: 400px;
+    height: 300px;
     padding: 25px;
 }
 
