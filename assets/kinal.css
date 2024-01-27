@@ -124,19 +124,158 @@ header{
     animation: EntradaDesdeDer .8s ease;
 }
 
+.contenidoBlog{
+    background-color: #fff;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.1);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeDer .8s ease;
+}
+
+.contenidoBen1, .contenidoBen2, .contenidoBen3, .contenidoBen4{
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.1);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeIzq .8s ease;
+    color: #fff;
+    font-size: 25px;
+}
+
+.donar{
+    background-color: #06264c;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.1);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeIzq .8s ease;
+    color: #fff;
+    font-size: 25px;
+}
+
+.contact{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeIzq .8s ease;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.contenidoEdu{
+    background-color: #fff;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.1);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeIzq .8s ease;
+}
+
+.foto{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img{
+    height: 100%;
+    width: 1500px;
+}
+
+.contenidoEdu h1{
+    font-size: 50px;
+    color: #06264c;
+}
+
+.contact h1{
+    margin: 0;
+}
+
+.logotipo{
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.donar img{
+    float: left;
+    height: 100%px;
+    width: 450px;
+}
+
+.donar h1, .donar h6{
+
+    margin: 0;
+}
+
+.donar button{
+
+    height: 40px;
+    width: 100px;
+    background-color: #e1c31f;
+    font-size: 20px;
+}
+
+.donar button:hover{
+
+    background-color: #06264c;
+    color: #e1c31f;
+}
+
+.contenidoBen1{
+    
+    background-color:   #203e57 ;
+}
+.contenidoBen2{
+    
+    background-color:   #112344 ;
+}
+.contenidoBen3{
+    
+    background-color:  #14243c  ;
+}
+.contenidoBen4{
+    
+    background-color:  #06264c ;
+}
+
+
 .logo{
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
     padding: 25px;
     margin: 15px;
-    animation: EntradaDesdeIzq .8s
+    animation: EntradaDesdeDer .8s
 }
 
 .logo img{
 
     height: 200px;
     width: 200px;
+}
+
+.bl{
+    height: 100%px;
+    width: 450px;
+    padding: 35px;
+}
+
+.beneficiarios1, .beneficiarios2 .beneficiarios3 .beneficiarios4{
+
+    align-items: center;
 }
 
 @keyframes EntradaDesdeIzq{
