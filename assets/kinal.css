@@ -85,21 +85,74 @@ header{
     object-fit: cover;
 }
 
-.nosotros{
+.nosotros, .sponsors, .blog{
 
     background-color: #fff;
     align-items: center;
     border-radius: 25px;
 }
 
-.nosotros h2{
+.nosotros h2, .sponsors h2{
     color: #14243c;
     font-size: 70px;
 }
 
-.educacion{
+.educacion, .beneficiarios, .contacto{
 
     background-color:  #e1c31f;
     align-items: center;
     border-radius: 25px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.contenido{
+    background-color: #fff;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 0.1);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    animation: EntradaDesdeDer .8s ease;
+}
+
+.logo{
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 15px;
+    animation: EntradaDesdeIzq .8s
+}
+
+.logo img{
+
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes EntradaDesdeIzq{
+
+    from{
+        transform: translateX(-200%);
+    }to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes EntradaDesdeDer{
+
+    from{
+        transform: translateX(+200%);
+    }to{
+        transform: translateX(0);
+    }
 }
