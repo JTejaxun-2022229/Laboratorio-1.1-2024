@@ -1,0 +1,105 @@
+body{
+    background-color:  #14243c ;
+}
+
+p{
+    font-size: 50px;
+    color: #14243c;
+    margin: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header{
+
+    background:  #e96806  ;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.navbar ul li img{
+    
+    height: 60px;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.atajo{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.atajo li{
+
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.atajo a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+.trabajos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.trabajos h2{
+
+    padding: 15px;
+    color: #fff;
+}
+
+.enlace, .autor{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.inicio video{
+
+    margin-top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nosotros{
+
+    background-color: #fff;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.nosotros h2{
+    color: #14243c;
+    font-size: 70px;
+}
+
+.educacion{
+
+    background-color:  #e1c31f;
+    align-items: center;
+    border-radius: 25px;
+}
